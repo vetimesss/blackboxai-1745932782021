@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stockmanagementapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="Stock Management"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockManagementApp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StockInOutActivity" />
+        <activity android:name=".NewOrderActivity" />
+        <activity android:name=".AddSupplierActivity" />
+        <activity android:name=".CreateProductActivity" />
+    </application>
+
+</manifest>
